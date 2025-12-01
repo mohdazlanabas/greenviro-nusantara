@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developing For A Greener World</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="main-title">Hello World</h1>
+            <p class="subtitle">Developing For A Greener World</p>
+        </header>
+        
+        <main>
+            <div class="camera-container" id="camera-container">
+                <video id="webcam" autoplay playsinline></video>
+                <div class="camera-overlay">
+                    <p class="camera-status" id="camera-status">📸 Say Hi!</p>
+                </div>
+                <button class="camera-toggle" id="camera-toggle" title="Toggle Camera">
+                    <span id="camera-icon">📷</span>
+                </button>
+            </div>
+
+            <div class="content-box">
+                <div class="leaf-icon">🌿</div>
+                <h2>Site Under Construction</h2>
+                <p>We're building something sustainable and innovative.</p>
+                <p>Check back soon for updates on our green initiatives.</p>
+                <div class="progress-bar">
+                    <div class="progress-fill"></div>
+                </div>
+                <p class="progress-text">Progress: <span id="progress-percent">42</span>%</p>
+            </div>
+        </main>
+        
+        <footer>
+            <div class="footer-content">
+                <p class="company-info">Developing For A Greener World</p>
+                <p class="contact">info@ptgvh.site</p>
+                <div class="location-info">
+                    <p>Your Location: <span id="visitor-location">Detecting...</span></p>
+                    <p>Your Time: <span id="visitor-time">Loading...</span></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+    <div class="background-animation">
+        <div class="leaf leaf1"></div>
+        <div class="leaf leaf2"></div>
+        <div class="leaf leaf3"></div>
+        <div class="leaf leaf4"></div>
+        <div class="leaf leaf5"></div>
+    </div>
+    
+    <script src="src/scripts.js"></script>
+</body>
+</html>
