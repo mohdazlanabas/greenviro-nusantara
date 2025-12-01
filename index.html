@@ -3,59 +3,362 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Developing For A Greener World</title>
+    <title>Greenviro Nusantara | Circular Energy & Strategy</title>
     <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1 class="main-title">Hello World</h1>
-            <p class="subtitle">Developing For A Greener World</p>
-        </header>
-        
-        <main>
-            <div class="camera-container" id="camera-container">
-                <video id="webcam" autoplay playsinline></video>
-                <div class="camera-overlay">
-                    <p class="camera-status" id="camera-status">📸 Say Hi!</p>
-                </div>
-                <button class="camera-toggle" id="camera-toggle" title="Toggle Camera">
-                    <span id="camera-icon">📷</span>
-                </button>
-            </div>
+    <div class="bg-overlay"></div>
 
-            <div class="content-box">
-                <div class="leaf-icon">🌿</div>
-                <h2>Site Under Construction</h2>
-                <p>We're building something sustainable and innovative.</p>
-                <p>Check back soon for updates on our green initiatives.</p>
-                <div class="progress-bar">
-                    <div class="progress-fill"></div>
-                </div>
-                <p class="progress-text">Progress: <span id="progress-percent">42</span>%</p>
+    <header class="site-header">
+        <div class="brand">
+            <img src="assets/G-N_Logo.png" alt="Greenviro Nusantara" class="brand-logo">
+            <div class="brand-copy">
+                <span class="brand-name">Greenviro Nusantara</span>
+                <span class="brand-tag">Circular strategy & business development</span>
             </div>
-        </main>
-        
-        <footer>
-            <div class="footer-content">
-                <p class="company-info">Developing For A Greener World</p>
-                <p class="contact">info@greenviro-nusamtara</p>
-                <div class="location-info">
-                    <p>Your Location: <span id="visitor-location">Detecting...</span></p>
-                    <p>Your Time: <span id="visitor-time">Loading...</span></p>
+        </div>
+        <nav class="nav" id="nav">
+            <a href="#services">Scope</a>
+            <a href="#flagship">Flagship</a>
+            <a href="#programs">Programs</a>
+            <a href="#process">Approach</a>
+            <a href="#insights">Insights</a>
+            <a href="#contact" class="nav-cta">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Indonesia 2026–2030</p>
+                    <h1>Business development and strategy for waste-to-energy, fuel, and chemical</h1>
+                    <p class="lede">We design and launch bankable circular programs across the archipelago, balancing non-thermal anaerobic digestion with complementary fuel and chemical pathways.</p>
+                    <div class="hero-actions">
+                        <a class="btn primary" href="#contact">Start a project</a>
+                        <a class="btn ghost" href="#services">Explore scope</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-value">33</span>
+                            <span class="stat-label">Sites in national pipeline</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">5.5B</span>
+                            <span class="stat-label">USD investment potential</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-value">2026</span>
+                            <span class="stat-label">First wave groundbreaks</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <div class="badge">Strategy first</div>
+                    <h3>What we deliver</h3>
+                    <ul>
+                        <li>Non-thermal WtE with anaerobic digestion as anchor</li>
+                        <li>Waste-to-fuel via upgraded biogas and bio-CNG</li>
+                        <li>Waste-to-chemical for fertilizers, CO₂, and circular outputs</li>
+                        <li>Financing, MRV, and partner alignment</li>
+                    </ul>
+                    <div class="mini-cta">
+                        <span>Balanced mix • Bankable • Impact-driven</span>
+                        <a href="#contact">Let’s talk →</a>
+                    </div>
                 </div>
             </div>
-        </footer>
-    </div>
-    
-    <div class="background-animation">
-        <div class="leaf leaf1"></div>
-        <div class="leaf leaf2"></div>
-        <div class="leaf leaf3"></div>
-        <div class="leaf leaf4"></div>
-        <div class="leaf leaf5"></div>
-    </div>
-    
+        </section>
+
+        <section class="ribbon">
+            <div class="ribbon-item">Business development & strategy</div>
+            <div class="ribbon-item">Waste-to-energy (non-thermal focus)</div>
+            <div class="ribbon-item">Waste-to-fuel (bio-CNG, biomethane)</div>
+            <div class="ribbon-item">Waste-to-chemical (fertilizers, CO₂)</div>
+        </section>
+
+        <section class="section" id="services">
+            <div class="section-header">
+                <p class="eyebrow">Scope</p>
+                <h2>Balanced WtE, WtF, and WtC capabilities</h2>
+                <p class="section-lede">Strategy, development, and financing to deliver circular assets with measurable outcomes.</p>
+            </div>
+            <div class="card-grid four">
+                <article class="card">
+                    <div class="icon">🍃</div>
+                    <h3>Non-thermal WtE</h3>
+                    <p>Anaerobic digestion-first platforms sized for municipal and agro waste streams.</p>
+                    <ul class="list">
+                        <li>Feedstock security & pre-treatment</li>
+                        <li>Gas upgrading with minimal thermal load</li>
+                        <li>Odor and emissions controls embedded</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <div class="icon">⛽</div>
+                    <h3>Waste-to-fuel</h3>
+                    <p>Upgraded biogas and bio-CNG for grid injection, mobility, and industrial heat.</p>
+                    <ul class="list">
+                        <li>Compression, storage, and delivery</li>
+                        <li>Grid-aligned injection points</li>
+                        <li>Offtake-backed fuel contracts</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <div class="icon">🧪</div>
+                    <h3>Waste-to-chemical</h3>
+                    <p>Fertilizers, CO₂, and circular materials with clear quality specs.</p>
+                    <ul class="list">
+                        <li>Nutrient recovery and conditioning</li>
+                        <li>Food-grade or industrial CO₂</li>
+                        <li>Recyclables integrated with energy</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <div class="icon">📈</div>
+                    <h3>Strategy & finance</h3>
+                    <p>Bankable models aligned with carbon markets and green frameworks.</p>
+                    <ul class="list">
+                        <li>MRV-ready structures</li>
+                        <li>Green bond & sukuk alignment</li>
+                        <li>Governance and performance KPIs</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section feature" id="flagship">
+            <div class="feature-grid">
+                <div class="feature-copy">
+                    <p class="eyebrow">Flagship</p>
+                    <h2>Non-thermal waste-to-energy with anaerobic digestion</h2>
+                    <p class="section-lede">Digesters tuned for 1,000 t/day platforms, delivering stable gas, odor control, and circular by-products with minimal thermal footprint.</p>
+                    <div class="pillars">
+                        <span>Digestion-first</span>
+                        <span>Gas upgrading</span>
+                        <span>Fertilizer & CO₂ lines</span>
+                        <span>Grid & offtake ready</span>
+                    </div>
+                    <div class="mini-cta">
+                        <span>Design, financing, and delivery support</span>
+                        <a href="#contact">Schedule a session →</a>
+                    </div>
+                </div>
+                <div class="feature-card">
+                    <div class="metric-block">
+                        <span class="metric-value">1,000</span>
+                        <span class="metric-label">tonnes waste/day per anchor site</span>
+                    </div>
+                    <div class="metric-block">
+                        <span class="metric-value">3–5</span>
+                        <span class="metric-label">million Nm³/year upgraded gas</span>
+                    </div>
+                    <div class="metric-block">
+                        <span class="metric-value">~180</span>
+                        <span class="metric-label">USD million capex per site</span>
+                    </div>
+                    <p class="note">Balanced with selective RDF/thermal options only where they add value.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="programs">
+            <div class="section-header">
+                <p class="eyebrow">Programs</p>
+                <h2>Tailored tracks for partners and offtakers</h2>
+            </div>
+            <div class="card-grid four">
+                <article class="card">
+                    <h3>Municipal partners</h3>
+                    <p>Waste pathways with transparency, compliance, and community benefits.</p>
+                    <ul class="list">
+                        <li>Secured feedstock contracts</li>
+                        <li>Non-thermal priority, thermal only as needed</li>
+                        <li>Public reporting and MRV</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Industrial offtakers</h3>
+                    <p>Reliable fuel and steam with balanced WtE/WtF/WtC options by site.</p>
+                    <ul class="list">
+                        <li>Bio-CNG and biomethane delivery</li>
+                        <li>Selective RDF/thermal integration</li>
+                        <li>Performance SLAs</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Agribusiness</h3>
+                    <p>Residue-to-gas pathways with nutrient recovery and carbon value.</p>
+                    <ul class="list">
+                        <li>Estate-based digesters</li>
+                        <li>Fertilizer and CO₂ utilization</li>
+                        <li>Carbon credit readiness</li>
+                    </ul>
+                </article>
+                <article class="card">
+                    <h3>Investors & lenders</h3>
+                    <p>Bankable assets with green eligibility and measurable impact.</p>
+                    <ul class="list">
+                        <li>Green bond and sukuk alignment</li>
+                        <li>MRV and governance baked in</li>
+                        <li>Portfolio replication templates</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="section process" id="process">
+            <div class="section-header">
+                <p class="eyebrow">Approach</p>
+                <h2>Business development from idea to operation</h2>
+            </div>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">01</div>
+                    <div>
+                        <h3>Assess</h3>
+                        <p>Resource mapping, policy fit, and offtake validation with local stakeholders.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">02</div>
+                    <div>
+                        <h3>Design</h3>
+                        <p>Balanced WtE/WtF/WtC mix, standardized engineering, and MRV setup.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">03</div>
+                    <div>
+                        <h3>Finance</h3>
+                        <p>Green-aligned structures, offtake-backed contracts, and governance.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">04</div>
+                    <div>
+                        <h3>Deliver & operate</h3>
+                        <p>EPC oversight with local partners, commissioning, and performance-driven O&M.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section metrics" id="impact">
+            <div class="section-header">
+                <p class="eyebrow">Mission</p>
+                <h2>Impactful Outcomes</h2>
+            </div>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <span class="impact-value counter" data-target="350">0</span>
+                    <span class="impact-unit">k tCO₂e</span>
+                    <p>Annual emissions avoided at steady state</p>
+                </div>
+                <div class="impact-card">
+                    <span class="impact-value counter" data-target="5">0</span>
+                    <span class="impact-unit">mn Nm³</span>
+                    <p>Upgraded gas per flagship site</p>
+                </div>
+                <div class="impact-card">
+                    <span class="impact-value counter" data-target="900">0</span>
+                    <span class="impact-unit">GWh</span>
+                    <p>Clean energy generated or displaced</p>
+                </div>
+                <div class="impact-card">
+                    <span class="impact-value counter" data-target="1200">0</span>
+                    <span class="impact-unit">jobs</span>
+                    <p>Local jobs supported across waves</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="insights">
+            <div class="section-header">
+                <p class="eyebrow">Insights</p>
+                <h2>Recent highlights</h2>
+            </div>
+            <div class="insights-grid">
+                <article class="insight-card">
+                    <p class="tag">Update</p>
+                    <h3>Balanced WtE/WtF/WtC playbook for urban hubs</h3>
+                    <p>Standardized 1,000 t/day designs anchor anaerobic digestion with selective RDF only where it adds value.</p>
+                    <a href="#contact">Discuss playbook →</a>
+                </article>
+                <article class="insight-card">
+                    <p class="tag">Waste-to-fuel</p>
+                    <h3>Bio-CNG pathways ready for grid nodes and fleets</h3>
+                    <p>Compression, storage, and offtake structures tuned to industrial demand and mobility use cases.</p>
+                    <a href="#contact">Explore pathways →</a>
+                </article>
+                <article class="insight-card">
+                    <p class="tag">Download</p>
+                    <h3>Indonesia circular energy blueprint</h3>
+                    <p>Overview of waste-to-energy, fuel, and chemical opportunities through 2030.</p>
+                    <a href="references/indonesia_strategy.pdf" download>Download PDF →</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <div class="contact-grid">
+                <div>
+                    <p class="eyebrow">Contact</p>
+                    <h2>Let’s build circular infrastructure together</h2>
+                    <p class="section-lede">Share your goals and location; we’ll respond with the right team.</p>
+                    <div class="contact-info">
+                        <div class="info-block">
+                            <h3>Offices</h3>
+                            <p>Jakarta • Surabaya • Makassar</p>
+                            <p class="address">Jl. Jenderal Sudirman No.Kav 75, RT.3/RW.3, Kuningan, Kecamatan Setiabudi, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12910, Indonesia</p>
+                        </div>
+                        <div class="info-block">
+                            <h3>Email</h3>
+                            <p>info@greenviro-nusantara.com</p>
+                        </div>
+                        <div class="info-block">
+                            <h3>Focus</h3>
+                            <p>Business development, strategy, waste-to-energy, fuel, and chemical.</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <label>Full name
+                        <input type="text" placeholder="Your name" required>
+                    </label>
+                    <label>Email
+                        <input type="email" placeholder="you@example.com" required>
+                    </label>
+                    <label>Organization
+                        <input type="text" placeholder="Company or agency" required>
+                    </label>
+                    <label>What do you need?
+                        <textarea rows="4" placeholder="Project scope, location, timelines" required></textarea>
+                    </label>
+                    <button type="submit" class="btn primary">Send message</button>
+                    <p class="privacy">We respond within two business days. Your information stays private.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="brand small">
+                <img src="assets/G-N_Logo.png" alt="Greenviro Nusantara" class="brand-logo">
+                <div class="brand-copy">
+                    <span class="brand-name">Greenviro Nusantara</span>
+                    <span class="brand-tag">Circular strategy & business development</span>
+                </div>
+            </div>
+            <div class="footer-links">
+                <a href="#top">Back to top</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
     <script src="src/scripts.js"></script>
 </body>
 </html>
